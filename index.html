@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEHA Makeup ARTIST</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/NClogo.png">
+</head>
+
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">
+    <img src="images/NClogo.png" alt="Neha Makeup Artist">
+</a>
+
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Golden Words</a>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#booking" class="btn btn-primary nav-book-btn"> <i class="fas fa-calendar-check"></i> <span>Hey Neha</span> </a>
+                </li>
+                 </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-slideshow">
+                <div class="hero-slide" style="background-image: url('/images/gallery-1.jpg');"></div>
+                <div class="hero-slide" style="background-image: url('/images/gallery-2.jpg');"></div>
+                <div class="hero-slide" style="background-image: url('/images/gallery-3.jpg');"></div>
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content container">
+                <h1>Your Fairytale Beauty Awaits</h1>
+                <p>Experience bespoke luxury and timeless elegance for your wedding day.</p>
+                <a href="#booking" class="btn btn-primary">Book Your Royal Consultation</a>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+       <section id="services" class="container section-padding">
+    <h2>Our Signature Services</h2>
+
+    <div class="service-grid">
+
+        <div class="service-item">
+            <i class="fas fa-gem fa-2x service-icon"></i>
+            <h3>Bridal Makeup</h3>
+            <p>Luxury bridal makeup designed to make you glow like a queen on your big day.</p>
+        </div>
+
+        <div class="service-item">
+            <i class="fas fa-ring fa-2x service-icon"></i>
+            <h3>Wedding Makeup</h3>
+            <p>Complete wedding day glam with flawless finish and long-lasting elegance.</p>
+        </div>
+
+        <div class="service-item">
+            <i class="fas fa-glass-cheers fa-2x service-icon"></i>
+            <h3>Party Makeup</h3>
+            <p>Glamorous and trendy party looks perfect for receptions, events & celebrations.</p>
+        </div>
+
+        <div class="service-item">
+            <i class="fas fa-cut fa-2x service-icon"></i>
+            <h3>Hair Art & Styling</h3>
+            <p>Elegant buns, curls, braids, and customized bridal hair artistry.</p>
+        </div>
+
+        <div class="service-item">
+            <i class="fas fa-hand-sparkles fa-2x service-icon"></i>
+            <h3>Nail Art</h3>
+            <p>Creative, classy and bridal nail art designs to complete your royal look.</p>
+        </div>
+
+        <div class="service-item">
+            <i class="fas fa-spa fa-2x service-icon"></i>
+            <h3>Pre-Wedding Pampering</h3>
+            <p>Skin prep, facials, and beauty rituals to ensure radiant wedding glow.</p>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+        <section id="testimonials" class="section-padding">
+            <div class="container">
+                <h2>Words from Our Royal Brides</h2>
+                <div class="swiper testimonials-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide testimonial-card">
+                            <img src="images/bride-boy-3.jpg" alt="Bride Testimonial 1">
+                            <blockquote>
+                                "Absolutely magical! They made me feel like a true queen on my wedding day. The attention to detail was incredible."
+                            </blockquote>
+                            <p class="bride-name">- Amelia R.</p>
+                        </div>
+                        <div class="swiper-slide testimonial-card">
+                             <img src="images/bride-girl-1.jpg" alt="Bride Testimonial 2">
+                            <blockquote>
+                                "The most luxurious and calming experience. My hair and makeup lasted all day and looked stunning in photos!"
+                            </blockquote>
+                            <p class="bride-name">- Isabella S.</p>
+                        </div>
+                        <div class="swiper-slide testimonial-card">
+                             <img src="images/bride-girl-2.jpg" alt="Bride Testimonial 3">
+                            <blockquote>
+                                "From the trial to the final touch-up, everything was perfect. Highly recommend for any bride wanting to feel special."
+                            </blockquote>
+                            <p class="bride-name">- Chloe T.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="container section-padding">
+            <h2>Our Bridal Gallery</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="makeup">Makeup</button>
+                <button class="filter-btn" data-filter="hair">Hair</button>
+                <button class="filter-btn" data-filter="classic">Classic</button>
+                <button class="filter-btn" data-filter="glam">Glam</button>
+                <button class="filter-btn" data-filter="nail">Nail</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="makeup classic">
+                    <img src="images/gallery-1.jpg" alt="Gallery Image 1">
+                </div>
+                <div class="gallery-item" data-category="classic">
+                    <img src="images/gallery-2.jpg" alt="Gallery Image 2">
+                </div>
+                <div class="gallery-item" data-category="hair">
+                    <img src="images/gallery-3.jpg" alt="Gallery Image 3">
+                </div>
+                <div class="gallery-item" data-category=" glam">
+                     <img src="images/gallery-4.jpg" alt="Gallery Image 4">
+                </div>
+                 <div class="gallery-item" data-category="makeup classic">
+                    <img src="images/gallery-5.jpg" alt="Gallery Image 5">
+                </div>
+                <div class="gallery-item" data-category="hair">
+                     <img src="images/hair1.jpeg" alt="Gallery Image 6">
+                </div>
+                 <div class="gallery-item" data-category="hair">
+                     <img src="images/hair2.jpeg" alt="Gallery Image 6">
+                </div>
+                 <div class="gallery-item" data-category="hair">
+                     <img src="images/hair3.jpeg" alt="Gallery Image 6">
+                </div>
+                 <div class="gallery-item" data-category="hair">
+                     <img src="images/hair4.jpeg" alt="Gallery Image 6">
+                </div>
+                 <div class="gallery-item" data-category="hair">
+                     <img src="images/h5.jpg" alt="Gallery Image 6">
+                </div>
+                <div class="gallery-item" data-category="hair">
+                     <img src="images/h6.jpg" alt="Gallery Image 6">
+                </div>
+                <div class="gallery-item" data-category="hair">
+                     <img src="images/h7.jpg" alt="Gallery Image 6">
+                </div>
+                <div class="gallery-item" data-category="hair">
+                     <img src="images/h8.jpg" alt="Gallery Image 6">
+                </div>
+                <div class="gallery-item" data-category="hair">
+                     <img src="images/h9.jpg" alt="Gallery Image 6">
+                </div>
+                <div class="gallery-item" data-category="hair">
+                     <img src="images/h10.jpg" alt="Gallery Image 6">
+                </div>
+                <div class="gallery-item" data-category="hair">
+                     <img src="images/h11.jpg" alt="Gallery Image 6">
+                </div>
+                <div class="gallery-item" data-category="glam">
+                     <img src="images/glam1.jpeg" alt="Gallery Image 6">
+                </div>
+                <div class="gallery-item" data-category="classic">
+                     <img src="images/B1.jpeg" alt="Gallery Image 6">
+                </div>
+                <div class="gallery-item" data-category="classic">
+                     <img src="images/B4.jpeg" alt="Gallery Image 6">
+                </div>
+                <div class="gallery-item" data-category="classic">
+                     <img src="images/B6.jpg" alt="Gallery Image 6">
+                </div>
+                <div class="gallery-item" data-category="classic">
+                     <img src="images/B5.jpg" alt="Gallery Image 6">
+                </div>
+                <div class="gallery-item" data-category="classic">
+                     <img src="images/B4.jpeg" alt="Gallery Image 6">
+                </div>
+                <div class="gallery-item" data-category="classic">
+                     <img src="images/B3.jpg" alt="Gallery Image 6">
+                </div>
+                <div class="gallery-item" data-category="classic">
+                     <img src="images/B2.jpg" alt="Gallery Image 6">
+                </div>
+
+
+                
+                </div>
+        </section>
+
+
+    
+
+
+
+
+     <section id="team" class="section-padding team-section">
+    <div class="container">
+        <h2>Meet Our Royal Glam Squad</h2>
+        <p class="section-subtitle">
+            The talented artists behind your flawless bridal transformation.
+        </p>
+
+        <div class="team-horizontal">
+
+            <div class="team-card">
+                <img src="images/team-1.jpg" alt="Neha - Lead Makeup Artist">
+                <div class="team-info">
+                    <h3>Neha Choudhary</h3>
+                    <p class="role">Lead Bridal Makeup & Nail Artist</p>
+                    <p>10+ years of experience in luxury bridal and celebrity makeup artistry.</p>
+                    <p>Specializes in creating timeless, elegant looks that enhance natural beauty.</p>
+                    <p>Also an expert in bridal nail art, offering exquisite designs to complement your wedding day look.</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <img src="images/team-2.jpg" alt="Hairstylist">
+                <div class="team-info">
+                    <h3>Bhavana </h3>
+                    <p class="role">Hairstylist</p>
+                    <p>Expert in elegant bridal buns, curls, and traditional wedding styles.</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <img src="images/team-3.jpg" alt="Skin">
+                <div class="team-info">
+                    <h3>Ananya Mehta</h3>
+                    <p class="role">Skin & Beauty </p>
+                    <p>Pre-bridal skincare expert ensuring radiant, glowing bridal skin.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <section id="booking" class="section-padding booking-section">
+    <div class="container booking-wrapper">
+
+        <!-- LEFT SIDE : BOOKING FORM -->
+        <div class="booking-left">
+            <h2>Begin Your Royal Beauty Journey</h2>
+
+            <form action="https://formsubmit.co/makoverbyneha@gmail.com" method="POST">
+
+                <!-- Hidden Settings -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="New Bridal Booking Request - Neha Makeup Artist">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html">
+
+
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="Email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="Phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="wedding-date">Your Wedding Date:</label>
+                    <input type="date" id="wedding-date" name="Wedding Date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message (Optional):</label>
+                    <textarea id="message" name="Message" rows="4"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    Request Consultation
+                </button>
+
+            </form>
+        </div>
+
+        <!-- RIGHT SIDE : CONTACT INFO (unchanged) -->
+        <div class="contact-right glass-box">
+    <h2>Contact Us</h2>
+
+    <div class="contact-item">
+        <a href="tel:+919340732344">
+            <i class="fas fa-phone-alt"></i>
+            <span>+91 9340732344</span>
+        </a>
+    </div>
+
+    <div class="contact-item">
+        <a href="https://www.instagram.com/makeup_by_nehachoudhary/" target="_blank">
+            <i class="fab fa-instagram"></i>
+            <span>@Neha_choudhary_makeup_artist</span>
+        </a>
+    </div>
+
+    <div class="contact-item">
+        <a href="https://www.facebook.com/neha.choudhary.983322" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+            <span>Neha Choudhary Makeup Artist</span>
+        </a>
+    </div>
+
+    <div class="contact-item">
+        <a href="https://www.threads.com/@makeup_by_nehachoudhary" target="_blank">
+            <i class="fab fa-threads"></i>
+            <span>@neha_choudhary_makeup_artist</span>
+        </a>
+    </div>
+
+    <div class="contact-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span> Sindhipura Burhanpur, Madhya Pradesh, India</span>
+    </div>
+
+    <a href="https://wa.me/919340732344" target="_blank" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+    </a>
+</div>
+
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <img src="images/NClogo.png" class="footer-logo" alt="Neha Choudhary">
+            <p>&copy; <span id="current-year"></span> Neha Choudhary. All Rights Reserved.</p>
+            <div class="social-links">
+                 <p class="made-by">
+    Website designed & developed by Bobby Choudhary
+    </a>
+</p>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
