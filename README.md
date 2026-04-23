@@ -14,7 +14,7 @@ A modern bridal makeup artist website showcasing premium services with a hero sl
 ## 🎥 Live Preview  
 
 <p align="center">
-  <img src="interfacegif.gif" width="850"/>
+  <img src="interfacegif (1) (2).gif" width="850"/>
 </p>
 
 ---
