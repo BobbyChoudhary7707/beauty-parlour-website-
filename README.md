@@ -9,6 +9,15 @@ A modern bridal makeup artist website showcasing premium services with a hero sl
 <p align="center">
   🌸 A Luxury Bridal Makeup Portfolio Website 🌸  
 </p>
+---
+
+## 🎥 Live Preview  
+
+<p align="center">
+  <img src="interfacegif.gif" width="850"/>
+</p>
+
+---
 
 ---
 
@@ -24,8 +33,10 @@ A modern bridal makeup artist website showcasing premium services with a hero sl
 🖼️ 📸 Screenshots  
 
 <p align="center">
-  <img src="images/screenshot1.png" width="400"/>
-  <img src="images/screenshot2.png" width="400"/>
+  <img src="Screenshot 2026-04-23 144638.png" width="400"/>
+  <img src="Screenshot 2026-04-23 144832.png" width="400"/>
+  <img src="Screenshot 2026-04-23 144717.png" width="400"/>
+  <img src="Screenshot 2026-04-23 144752.png" width="400"/>
 </p>
 
 <p align="center">
